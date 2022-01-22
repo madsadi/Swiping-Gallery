@@ -2,7 +2,7 @@
 
 a responsive gallery that its images can be swiped left and right.
 
-#Installation
+# Installation
 
 `npm i swipinggallery --save`
 
@@ -20,7 +20,7 @@ swipinggallery supports multiple options which can be modified to fit your own t
  
 * (the thumbnail section has a shadow at the end-left and end-right to indicate more to images are to come, you can specify background of this shadow by this option ,and it accepts string) shadowBg={}
 
-* (there are buttons you can change photos. you can change the icon by this two options)leftArrow={}
+* (there are buttons you can change photos. you can change the icon by this two options) leftArrow={}
   rightArrow={}
   
 * (fullscreen icon) fullScreenIcon={}

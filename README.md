@@ -1,6 +1,7 @@
 # What is this?
 
-a responsive gallery that its images can be swiped left and right.
+a responsive gallery that its images can be swiped left and right.In mobile view touch action is enabled and in fullscreen mode click outside detector to close the modal is enabled as well.
+#typescript #ReactJs #NextJs 
 
 # Installation
 
@@ -18,14 +19,14 @@ import {SwipingGallery} from 'swipinggallery'
 
 swipinggallery supports multiple options which can be modified to fit your own taste and style:
  
-* (the thumbnail section has a shadow at the end-left and end-right to indicate more to images are to come, you can specify background of this shadow by this option ,and it accepts string) shadowBg={}
+* (the thumbnail section has a shadow at the end-left and end-right to indicate more to images are to come, you can specify background of this shadow by this option ,and it accepts string) shadowBg={'linear-gradient(to left, rgba(255, 255, 255, 0.01) 0%, #ffffff 84%)'}
 
-* (there are buttons you can change photos. you can change the icon by this two options) leftArrow={}
-  rightArrow={}
+* (there are buttons you can change photos. you can change the icon by this two options) leftArrow={'../public/left-arrow.svg'}
+  rightArrow={'../public/right-arrow.svg'}
   
-* (fullscreen icon) fullScreenIcon={}
+* (fullscreen icon) fullScreenIcon={'../public/fullscreen.svg'}
   
-* (exitfullscreen icon) exitFullScreen={}
+* (exitfullscreen icon) exitFullScreen={'../public/exitfullscreen.svg'}
   
 * (whether you want to show the thumbnail section below your gallery can be specified through this boolean option, and it's true by default) thumbnailDisplay={true}
   
